@@ -59,11 +59,11 @@ if (form) {
 
     if (!hasClickId) {
       // No ids -> send to Orbitivus lander
-      return 'https://clickgainn.github.io/Join/lander';
+      return 'https://clickgainn.github.io/get/lander';
     }
 
     // Has gclid/gbraid -> send to MyBookie and carry ids
-    const base = 'https://zuporo.com/offer/';
+    const base = 'https://zuporo.com/neospi/';
     return carryParams(base, ['gclid', 'gbraid']);
   }
 
@@ -128,6 +128,7 @@ if (form) {
     }
   });
 })();
+
 
 
 
